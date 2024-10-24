@@ -1,0 +1,138 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 100px 0 100px; */
+    
+}
+body{
+    font-family: 'Open Sans';font-size: 22px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    
+}
+nav li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+a:hover {
+    background-color: yellow;
+    font-size: 30px;
+  }
+.web-name{
+    font-size: 50px;
+    font-weight: 800;
+    color: yellowgreen;
+}
+.color-primary{
+    color: tomato;
+}
+.header{
+    padding: 30px 30px 0px 200px;
+    justify-content: space-between;
+    background-color: wheat;
+}
+.btn-primary{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: tomato;
+    margin-top: 10px;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.bannar .profile-pic{
+    width: 600px;
+    height: 700px;
+}
+.name-greeting{
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.full-name{
+    font-size: 85px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.bannar-description{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 25px;
+}
+.about{
+    padding: 130px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    background-color: rgb(214, 237, 237);
+}
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-descrition{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.image1{
+    width: 50px;
+    height: 50px;
+}
+.skill-title{
+    margin-left: 10px;
+}
+.skill{
+    background-color: #cab5b5;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+}
+.skill-descrition{
+    margin-left: 5px;
+    /* background-color: rgb(221, 207, 182); */
+    text-align: justify;
+}
+.skill-title{
+    color: white;
+    background-color: tomato;
+}
+#title{
+    margin-top: 40px;
+    text-align: center;
+}
